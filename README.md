@@ -1,24 +1,17 @@
 # vue-sample-app
+This is a sample VueJS app which has been instrumented using OpenTelemetry to collect the telemetry data and uses SigNoz as the backend analysis tool for storing and visualizing the telemetry data collected using OpenTelemetry.
 
-## Project setup
-```
+# How to run the app ?
+
+## Step 1: Clone this repository
+```git clone ----```
+```cd vue-sample-app```
+
+## Step 2: Install the dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Step 3: Install the Vue CLI
+```npm install -g @vue/cli```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Step 4: Run the App
+```vue serve```
