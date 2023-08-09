@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="header">
-      <img src="@/assets/signoz_logo.svg" alt="Vue Logo" class="logo left" />
+      <img src="@/assets/signoz_logo.svg" alt="SigNoz Logo" class="logo left" />
       Sample SigNoz Vue Instrumentation App
-      <img src="@/assets/logo.png" alt="SigNoz Logo" class="logo right" />
+      <img src="@/assets/vue_logo.png" alt="Vue Logo" class="logo right" />
     </div>
     <button @click="fetchData">Fetch Data</button>
     <div v-if="x.entries.length > 0">
