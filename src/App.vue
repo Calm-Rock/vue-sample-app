@@ -27,7 +27,7 @@
         🤟 Loading...
       </div>
       <div v-else class="fetch-data">
-        Fetch data by clicking on Fetch
+        Click 👆
       </div>
     </div>
   </div>
